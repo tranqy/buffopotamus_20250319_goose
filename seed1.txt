@@ -1,0 +1,8 @@
+We're going to create a site for a buffopotamus, a cross between a buffalo and a hippopotamus. 
+
+You're going to create specs first that we'll use to implement later.  Please create stories and imagery that will be adorable and lovable and cartoon like. 
+
+We're going to be creating a site, writing a story, and generating images. Use the tools you have access to for internet access and generating images.
+
+Use Astro as a framework, and we'll be deploying to cloudflare. Make sure do include any technical documentation required for these. 
+
