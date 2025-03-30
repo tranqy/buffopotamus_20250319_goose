@@ -1,0 +1,82 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Gallery - Biff the Buffopotamus">
+  <section class="page-header">
+    <h1>Biff's Gallery</h1>
+    <p>A collection of images featuring our favorite Buffopotamus</p>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="/images/biff_buffopotamus.png" alt="Biff the Buffopotamus portrait" />
+        <div class="gallery-item-caption">
+          <h3>Biff's Portrait</h3>
+          <p>Biff smiling for the camera</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="/images/biff_saving_prairiedogs.png" alt="Biff helping friends" />
+        <div class="gallery-item-caption">
+          <h3>Helping Friends</h3>
+          <p>Biff is always ready to lend a helping hoof</p>
+        </div>
+      </div>
+      
+      <!-- We'll add more images as they become available -->
+      <div class="gallery-item coming-soon">
+        <div class="coming-soon-content">
+          <h3>More Images Coming Soon!</h3>
+          <p>Check back for more adventures of Biff</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="coloring-pages">
+    <h2>Coloring Pages</h2>
+    <p>Download these fun coloring pages featuring Biff and his friends!</p>
+    
+    <div class="coming-soon-container">
+      <div class="coming-soon-content">
+        <h3>Coming Soon!</h3>
+        <p>Printable coloring pages will be available soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .coming-soon {
+      background-color: var(--primary-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .coming-soon-content {
+      padding: var(--space-lg);
+      color: var(--white);
+    }
+    
+    .coming-soon-container {
+      background-color: var(--primary-light);
+      border-radius: var(--border-radius-lg);
+      padding: var(--space-xl);
+      margin-top: var(--space-lg);
+      text-align: center;
+    }
+    
+    .coming-soon-container h3 {
+      color: var(--white);
+    }
+    
+    .coming-soon-container p {
+      color: var(--white);
+      opacity: 0.9;
+    }
+  </style>
+</MainLayout>
